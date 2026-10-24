@@ -1,0 +1,16 @@
+{
+  "name": "siga-backend",
+  "version": "0.1.0",
+  "description": "API REST del Sistema de Gestión Académica (SIGA)",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "UNLICENSED"
+}

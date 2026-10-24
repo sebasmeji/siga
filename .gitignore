@@ -1,0 +1,24 @@
+# Dependencias
+node_modules/
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Registros
+*.log
+npm-debug.log*
+
+# Respaldos de base de datos
+*.dump
+*.backup
+backups/
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Cobertura de pruebas
+coverage/
